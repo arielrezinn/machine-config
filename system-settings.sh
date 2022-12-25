@@ -1,5 +1,11 @@
 #!/bin/zsh
 
+# Enable three-finger drag
+# System Settings > Accessibility > Pointer Control > Trackpad Options > Enable Dragging
+
+# Enable tap-to-click on the built-in trackpad
+defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
+
 # Finder: show all filename extensions
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
@@ -25,4 +31,4 @@ defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 # Finder: show hidden files by default (otherwise, you can do this with cmd+shift+.)
 #defaults write com.apple.finder AppleShowAllFiles -bool true
 
-killall Finder;
+# Then RESTART THE MACHINE
