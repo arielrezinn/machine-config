@@ -3,8 +3,8 @@ After a freak accident where a framed photo fell off the wall (rendering the top
 
 ## Overview
 1. [system-settings.sh](system-settings.sh)
-1. [system-etc-config.sh](system-etc-config.sh)
-    1. For cleaning up the home directory
+1. (Optional) [system-etc-config.sh](system-etc-config.sh)
+    1. Use this to keep all zsh related files in one folder 
     1. Note: you might have to manually copy zsh files and folders over to the ./zsh directory
 1. Install Oh My Zsh
     1. Run `sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"` in Terminal
