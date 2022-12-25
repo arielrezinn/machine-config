@@ -1,7 +1,8 @@
 #!/bin/zsh
 
-# Enable three-finger drag
-# System Settings > Accessibility > Pointer Control > Trackpad Options > Enable Dragging
+# Things to adjust manually in settings
+#   1) Automatically hide and show the dock
+#   2) Enable three-finger drag (System Settings > Accessibility > Pointer Control > Trackpad Options > Enable Dragging)
 
 # Enable tap-to-click on the built-in trackpad
 defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
