@@ -1,8 +1,6 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
-tap "homebrew/cask-versions"
-tap "homebrew/cask-drivers"
 cask "1password"
 cask "calibre"
 cask "google-drive"
@@ -12,6 +10,13 @@ cask "notion"
 cask "selfcontrol"
 cask "spotify"
 cask "visual-studio-code"
+
+tap "homebrew/cask-versions"
 cask "transmission-beta"
+
+tap "homebrew/cask-drivers"
 cask "logi-options-plus"
-# TODO: ADD MY PERSONAL CASKS HERE
+
+tap "arielrezinn/custom"
+cask "open-in-vs-code"
+cask "open-terminal-here"

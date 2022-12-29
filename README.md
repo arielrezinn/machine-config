@@ -26,8 +26,8 @@ After a freak accident where a framed photo fell off the wall (rendering the top
     1. Make sure to change `REPLACEME@gmail.com` to your Github account email
 1. [finder-toolbar-applications](finder-toolbar-applications)
     1. Note: I found myself wanting to easily launch Terminal and VS Code instances that were already at a specific directory. The scripts can be exported to update the corresponding application. 
-    1. Copy each application to your `C:/Applications` directory 
-    1. Hold down cmd while dragging each application into the finder toolbar
+    1. Each application was installed to your `C:/Applications` directory when you completed step 6
+    1. Hold down cmd while dragging each application from the `C:/Applications` directory into the finder toolbar
  1. Remap the spotlight key to f13 and the dictation key to f14
     1. Copy the [com.local.KeyRemapping.plist](com.local.KeyRemapping.plist) file to `~/Library/LaunchAgents/com.local.KeyRemapping.plist`
     1. Reboot the machine for it to take effect
