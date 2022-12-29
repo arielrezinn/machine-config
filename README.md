@@ -2,6 +2,7 @@
 After a freak accident where a framed photo fell off the wall (rendering the top half of my laptop unusable) I faced the unfortunate scenario of setting up a brand new machine. Although I'm grateful that I was able to replace my old laptop, the setup process was a bit daunting. This machine-config repository, along with my dotfiles repository, is my attempt at making future machine upgrades smoother. 
 
 ## Overview
+1. Download this project as a zip from Github. This will make running the shell scripts easier.
 1. [system-settings.sh](system-settings.sh)
 1. (Optional) [system-etc-config.sh](system-etc-config.sh)
     1. Use this to keep all zsh related files in one folder 
@@ -19,11 +20,23 @@ After a freak accident where a framed photo fell off the wall (rendering the top
 1. [Install yarn globally](https://yarnpkg.com/getting-started/install)
 1. Configure Github SSH Key
     1. [Create a new SSH key on your machine](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+    1. Restart the machine for the ssh key and keychain changes to take effect
     1. [Add the SSH key to your Github account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 1. [Configure Git](git-config.sh)
     1. Make sure to change `REPLACEME@gmail.com` to your Github account email
 1. [finder-toolbar-applications](finder-toolbar-applications)
-    1. I found myself wanting to easily launch Terminal and VS Code instances that were already at a specific directory. These scripts can be exported as applications and dragged into the Finder toolbar while holding down cmd. 
+    1. Note: I found myself wanting to easily launch Terminal and VS Code instances that were already at a specific directory. The scripts can be exported to update the corresponding application. 
+    1. Copy each application to your `C:/Applications` directory 
+    1. Hold down cmd while dragging each application into the finder toolbar
+ 1. Remap the spotlight key to f13 and the dictation key to f14
+    1. Copy the [com.local.KeyRemapping.plist](com.local.KeyRemapping.plist) file to `~/Library/LaunchAgents/com.local.KeyRemapping.plist`
+    1. Reboot the machine for it to take effect
+    1. Credit where it's due:
+       1. https://mybyways.com/blog/remapping-physical-function-keys-on-macbook-pros
+       1. https://www.nanoant.com/mac/macos-function-key-remapping-with-hidutil
+       1. https://www.reddit.com/r/olkb/comments/puac0o/macspecific_hex_codes_for_spotlight_dictation_and/
+ 1. Give f13 and f14 cool new jobs !!
+    1. Finish here
 
 ## Shell Scripting
 Having issues getting your file (named `myscript.sh` as an example) to execute? 
