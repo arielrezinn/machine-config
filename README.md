@@ -35,8 +35,10 @@ After a freak accident where a framed photo fell off the wall (rendering the top
        1. https://mybyways.com/blog/remapping-physical-function-keys-on-macbook-pros
        1. https://www.nanoant.com/mac/macos-function-key-remapping-with-hidutil
        1. https://www.reddit.com/r/olkb/comments/puac0o/macspecific_hex_codes_for_spotlight_dictation_and/
- 1. Give f13 and f14 cool new jobs !!
-    1. Finish here
+ 1. Give f13 and f14 cool new jobs !! You could...
+    1.  set a shortcut for Stage Manager in the Settings app
+    1.  create a shortcut to create a Finder window and/or bring a Finder window to focus
+    1.  more!
 
 ## Shell Scripting
 Having issues getting your file (named `myscript.sh` as an example) to execute? 
