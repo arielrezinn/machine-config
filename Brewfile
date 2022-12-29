@@ -14,4 +14,4 @@ cask "spotify"
 cask "visual-studio-code"
 cask "transmission-beta"
 cask "logi-options-plus"
-# cask "https://raw.githubusercontent.com/arielrezinn/machine-config/main/finder-toolbar-applications/open-in-vscode/open-in-vs-code.rb"
+# TODO: ADD MY PERSONAL CASKS HERE
