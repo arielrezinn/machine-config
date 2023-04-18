@@ -28,17 +28,20 @@ After a freak accident where a framed photo fell off the wall (rendering the top
     1. Note: I found myself wanting to easily launch Terminal and VS Code instances that were already at a specific directory. The scripts can be exported to update the corresponding application. 
     1. Each application was installed to your `C:/Applications` directory when you completed step 6
     1. Hold down cmd while dragging each application from the `C:/Applications` directory into the finder toolbar
- 1. Remap the spotlight key to f13 and the dictation key to f14
+ 1. Remap some keys on the built-in keyboard
     1. Copy the [com.local.KeyRemapping.plist](com.local.KeyRemapping.plist) file to `~/Library/LaunchAgents/com.local.KeyRemapping.plist`
     1. Reboot the machine for it to take effect
     1. Credit where it's due:
        1. https://mybyways.com/blog/remapping-physical-function-keys-on-macbook-pros
+       1. https://mybyways.com/blog/script-to-re-map-macbook-pro-function-keys
        1. https://www.nanoant.com/mac/macos-function-key-remapping-with-hidutil
        1. https://www.reddit.com/r/olkb/comments/puac0o/macspecific_hex_codes_for_spotlight_dictation_and/
- 1. Give f13 and f14 cool new jobs !! You could...
+ 1. Give f13, f14, and any others cool new jobs !! You could...
     1.  set a shortcut for Stage Manager in the Settings app
     1.  create a shortcut to create a Finder window and/or bring a Finder window to focus
-    1.  more!
+    1.  go into "read text" accessibility settings and enter a shortcut to trigger it  
+    1.  open 1password and enter a shortcut to trigger global autofill 
+    1.  and more!
 
 ## Shell Scripting
 Having issues getting your file (named `myscript.sh` as an example) to execute? 
