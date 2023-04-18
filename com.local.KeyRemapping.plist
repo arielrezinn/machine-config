@@ -1,4 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- To Make Changes...
+1) Get the HID key codes `ioreg -l | grep FnFunctionUsageMap`
+	a) for each pair, the first is the fn key code and the second is the behavior printed on the keycap
+2) the FnFunctionUsageMap returns 32 bit numbers, but hidutil uses 64 bit numbers
+	a) to address this, pad up each 16 bit pair
+	b) ex: 0x000c00cf is equivalent to 0x000c 0x00cf and becomes 0x0000 0x000c 0x0000 0x00cf which is equivalent to 0x0000000c000000cf
+3) update the KeyRemapping file accordingly
+4) here's the current values:
+    {   "HIDKeyboardModifierMappingSrc":0x0000ff0100000010, // mission control
+        "HIDKeyboardModifierMappingDst":0x0000000700000068  // f13
+    },{ "HIDKeyboardModifierMappingSrc":0x0000000c00000221, // spotlight
+        "HIDKeyboardModifierMappingDst":0x000000070000006a  // f15
+    },{ "HIDKeyboardModifierMappingSrc":0x0000000c000000cf, // dictation
+        "HIDKeyboardModifierMappingDst":0x0000000700000069  // f14
+    }
+-->
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
