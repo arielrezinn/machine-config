@@ -10,10 +10,12 @@
         <string>property</string>
         <string>--set</string>
         <string>{"UserKeyMapping":[
-            {   "HIDKeyboardModifierMappingSrc":0xC00000221,
-                "HIDKeyboardModifierMappingDst":0x700000068
-            },{ "HIDKeyboardModifierMappingSrc":0xC000000CF,
-                "HIDKeyboardModifierMappingDst":0x700000069
+            {   "HIDKeyboardModifierMappingSrc":0x0000ff0100000010,
+                "HIDKeyboardModifierMappingDst":0x0000000700000068
+            },{ "HIDKeyboardModifierMappingSrc":0x0000000c00000221,
+                "HIDKeyboardModifierMappingDst":0x000000070000006a
+            },{ "HIDKeyboardModifierMappingSrc":0x0000000c000000cf,
+                "HIDKeyboardModifierMappingDst":0x0000000700000069
             }
         ]}</string>
     </array>
